@@ -1,0 +1,36 @@
+{
+  "books": [
+    {
+      "name": "Sibu",
+      "id": 1
+    },
+    {
+      "name": "heaven",
+      "id": 2
+    }
+  ],
+  "phones": [
+    {
+      "name": "Sibu",
+      "number": "(+27) 55 430 3343",
+      "id": 1,
+      "book": "Sibu"
+    },
+    {
+      "name": "Kidus",
+      "number": "(+27) 55 430 3343",
+      "id": 2,
+      "book": "Sibu"
+    },
+    {
+      "name": "bob",
+      "number": "1234567890",
+      "id": 3
+    },
+    {
+      "name": "fran",
+      "number": "1234567891",
+      "id": 4
+    }
+  ]
+}

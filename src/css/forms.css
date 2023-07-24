@@ -1,0 +1,56 @@
+
+* {
+	transition: 0.2s ease;
+}
+
+.entry form {
+	display: flex;
+	flex-direction: column;
+}
+
+.button-container {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 1rem;
+}
+
+form input {
+	margin: 1rem;
+	padding: 1rem;
+	border: 1px solid black;
+	border-width: 0 0 1px 0;
+	outline: none;
+}
+
+form input:focus {
+	border-color: #f1356d;;
+}
+
+button {
+	padding: 1rem;
+	width: 10rem;
+	color: white;
+	border: none;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button#add-button { 
+	background-color: lightskyblue;
+} 
+
+button#add-button:hover {
+	background-color: steelblue;
+}
+
+button#cancel-button {
+	background-color: lightcoral;
+}
+
+button#cancel-button:hover {
+	background-color: coral;
+}
+
+

@@ -1,0 +1,10 @@
+ <PhoneList phones={phones} title="All phone books"handleDelete={handleDelete}/>
+        <PhoneList phones={phones.filter((phone)=>phone.author==='Kidus')} title="Kidus phones"/>
+        
+        <p>{name}</p>
+
+
+const handleDelete=(id)=>{
+       const newphones=phones.filter(phone=>phone.id !==id) ;
+       setphones(newphones)
+    }
